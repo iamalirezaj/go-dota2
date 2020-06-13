@@ -2,10 +2,10 @@
 
 [![GoDoc Widget]][GoDoc] [![Go Report Card Widget]][Go Report Card]
 
-[GoDoc]: https://godoc.org/github.com/paralin/go-dota2
-[GoDoc Widget]: https://godoc.org/github.com/paralin/go-dota2
-[Go Report Card Widget]: https://goreportcard.com/badge/github.com/paralin/go-dota2
-[Go Report Card]: https://goreportcard.com/report/github.com/paralin/go-dota2
+[GoDoc]: https://godoc.org/github.com/MrJoshLab/go-dota2
+[GoDoc Widget]: https://godoc.org/github.com/MrJoshLab/go-dota2
+[Go Report Card Widget]: https://goreportcard.com/badge/github.com/MrJoshLab/go-dota2
+[Go Report Card]: https://goreportcard.com/report/github.com/MrJoshLab/go-dota2
 
 ## Introduction 
 **go-dota2** is a DOTA 2 client plugin for go-steam. The intent is to replicate as much of the client functionality as possible.
@@ -37,8 +37,8 @@ This mechanism is used everywhere, these objects are not exposed in their own ev
 
 ```go
 import (
-	gcmm "github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-dota2/cso"
+	gcmm "github.com/MrJoshLab/go-dota2/protocol"
+	"github.com/MrJoshLab/go-dota2/cso"
 )
 
 eventCh, eventCancel, err := dota.GetCache().SubscribeType(cso.Lobby)

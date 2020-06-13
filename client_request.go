@@ -6,7 +6,7 @@ import (
 
 	"github.com/faceit/go-steam/protocol/gamecoordinator"
 	"github.com/golang/protobuf/proto"
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/MrJoshLab/go-dota2/protocol"
 	"github.com/sirupsen/logrus"
 )
 

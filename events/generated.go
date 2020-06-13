@@ -2,7 +2,7 @@ package events
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/paralin/go-dota2/protocol"
+	"github.com/MrJoshLab/go-dota2/protocol"
 )
 
 // ArcanaVotesUpdate event.

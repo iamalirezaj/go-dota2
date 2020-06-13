@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/MrJoshLab/go-dota2/protocol"
 	"github.com/pkg/errors"
 )
 
